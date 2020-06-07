@@ -1,0 +1,7 @@
+requests
+BeautifulSoup
+selenium
+psycopg2
+sqlalchemy
+pandas
+fake_useragent
