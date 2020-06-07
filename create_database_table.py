@@ -2,10 +2,10 @@ import pandas as pd
 import sqlalchemy
 import psycopg2
 import time
-# from collection import data
+from collection import data
 
-# df = pd.DataFrame(data)
-# df.to_csv("data.csv", index=False)
+df = pd.DataFrame(data)
+df.to_csv("data.csv", index=False)
 
 time.sleep(10)
 

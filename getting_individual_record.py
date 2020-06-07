@@ -2,13 +2,11 @@ from bs4 import BeautifulSoup
 import requests
 import io
 import time
-# from url_output import urls
+from url_output import urls
 import pandas as pd
 from fake_useragent import UserAgent
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
-
-urls = ["import from url url_output.py"]
 
 data = []
 
