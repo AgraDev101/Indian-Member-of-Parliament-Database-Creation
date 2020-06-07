@@ -79,7 +79,7 @@ for url in urls:
 	print(str(len(data)) + " record(s) added")
 	time.sleep(1)
 
-with open("collection.py", "w+") as f:
+with open("collection.py", "w") as f:
 	f.seek(0)
 	f.write("data = " + str(data))
 

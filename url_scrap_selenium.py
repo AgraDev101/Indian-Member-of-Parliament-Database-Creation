@@ -31,6 +31,6 @@ while True:
 
 print(len(data))
 
-with open("url_output.py", "w+") as f:
+with open("url_output.py", "w") as f:
 	f.seek(0)
 	f.write("urls = " + str(data))
